@@ -1,0 +1,54 @@
+
+Commands :-
+
+   *mkdir - Make Directory (mkdir <DirectoryName>)
+   *cd -Change Directory (cd <DirectoryName>)
+   *ls-list
+   *cmd+k/clear -Clear Terminal
+
+* Important Git Commands
+
+   -git config --global user.name "username"
+   -git config --global user.email "mail"
+ 
+                                    > to check the changes
+                                                -git config --global user.name
+                                                   -git config --global user.email
+   
+  *git init- Intialization
+  
+  *git status- to know the current status
+  *git add-to add file from working directory to staging area
+  *git-commit-to addfile from  staging area to repository
+
+$ git commit -m "initial commit" - commit (-m=meaning full message) 
+If we type git commit only the wimeditor will open there type i
+Write initial commit and 
+1.press esc
+2.:
+3.wq
+
+to know how many commit are there
+$ git log
+
+********checkout is used to switch one to another branch****
+
+To back to previous commit
+$ git checkout <commit hash code/branch name>
+        
+Switch to Master
+$ git checkout master 
+
+**** create branch ****
+$ git branch <branch name> or
+$ git checkout -b anuj/multifly
+
+**merge branches **
+$ git merge <branchname>
+
+
+** create gitignorefile**
+$touch .gitignore
+
+
+
